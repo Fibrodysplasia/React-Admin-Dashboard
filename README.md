@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# React Admin Dashboard
+Built following a tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=jx5hdo50a2M&t=336s) on Youtube.
+
+See the live site [here](https://react-dash-test.netlify.app/)
+
+This admin dashboard has many features including orders, charts, kanban, calendar, and theming (dark and custom colors). 
+![image](https://user-images.githubusercontent.com/16516093/177058848-a9da24c1-c8d5-457f-930b-57976f5d4162.png)
+
+### *Settings tab:*
+![image](https://user-images.githubusercontent.com/16516093/177058869-d4af5c52-bc36-4bba-8c56-f9929e7e596f.png)
+
+### *Dark Mode and color map chart:*
+![image](https://user-images.githubusercontent.com/16516093/177058901-d4a63d24-4c30-4ceb-94ee-8530a66ec305.png)
+
+### *Sortable charts:*
+![image](https://user-images.githubusercontent.com/16516093/177058923-79783500-bb61-45b0-b34f-6c00c8fba289.png)
+![image](https://user-images.githubusercontent.com/16516093/177058927-266e392d-9df0-45d6-8612-be3b25f47031.png)
+
+**Note**
+This application does not have CRUD functionality. See my other repos for that. I built this app to play with React and syncfusion features. 
+
+
+# *Stuff from npm:*
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
