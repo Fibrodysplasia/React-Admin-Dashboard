@@ -10,7 +10,8 @@ import { useStateContext } from '../contexts/ContextProvider';
 const Sidebar = () => {
   const { activeMenu,
            setActiveMenu,
-           screenSize
+           screenSize,
+           currentColor
          } = useStateContext();
 // we want the sidebar to close after click for small screens
   const handleCloseSideBar = () => {
@@ -53,6 +54,10 @@ const Sidebar = () => {
                   to={`/${link.name}`}
                   key={link.name}
                   onClick={handleCloseSideBar}
+                  style={({ isActive }) => ({
+                    backgroundColor: isActive ?
+                    currentColor: ''
+                  })}
                   className={({ isActive }) => 
                   isActive ? activeLink :
                   normalLink}>
